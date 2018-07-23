@@ -1,0 +1,65 @@
+<html lang="en">
+
+<head>
+	<link rel="stylesheet" href="styles/reset.css"/>
+	<link rel="stylesheet" href="styles/responsive.css"/>
+	<link rel="stylesheet" href="styles/base.css"/>
+	<link rel="stylesheet" href="styles/widescreen.css"/>
+	<link href="https://fonts.googleapis.com/css?family=Libre+Franklin" rel="stylesheet"/>
+
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="scripts/util.js"></script>
+	<script src="scripts/quiz.js"></script>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+</head>
+
+<body>
+	
+	<header role="header">
+		<h1>Online Quizzes</h1>
+		<small>By Luis Lau</small>
+	</header>
+
+	<main role="main">
+
+		<section class="quiz-section quiz-question" role="region">
+			<section id="quiz-stats">
+				<div id="quiz-progressbar"><div></div></div>
+				<div id="quiz-stats-text"></div>
+			</section>
+			<p id="quiz-question-text"></p>
+		</section>
+		<section class="quiz-section quiz-answers" role="region">
+			<form id="quiz-answerselection">
+				<fieldset><legend>Your Answer:</legend></fieldset>
+				<p id="quiz-answerfeedback"></p>
+				<button type="submit"></button>
+			</form>
+		</section>
+		
+		<section class="quiz-section quiz-intro" role="region">
+			<h2>Choose a Quiz!</h2>
+			<form id="quiz-quizselection">
+				<div><label for="quiz-quizlist">Quiz: </label><select id="quiz-quizlist"></select></div>
+				<div id="quiz-quizdesc"><p></p></div>
+				<span id="quiz-quizdata"><span id="quiz-quizlength"></span><span id="quiz-quizmode" class="widescreen-only"></span></span>
+				<button type="submit">Start</button>
+			</form>
+		</section>
+
+		<section class="quiz-section quiz-results" role="region">
+			<h2>Quiz Completed!</h2>
+			<div id="quiz-results-text"></div>
+			<button id="quiz-restart">Try another Quiz</button>
+		</section>
+	
+	</main>
+
+	<footer role="contentinfo">
+		<small>Copyright &copy; 2018 The Foobar Company.</small>
+	</footer>
+	
+</body>
+
+</html>

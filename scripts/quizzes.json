@@ -1,0 +1,51 @@
+[
+	{
+		"name": "Java - Basics",
+		"desc": "Test your knowledge of the basics of the Java programming language with this quiz!",
+		"blind": false,
+		"random": true,
+		"questions": [
+			{"text": "Which of the following is not a feature of the Java programming language?", "answers": ["Object-Oriented Programming", "Using the <code>var</code> keyword to dynamically infer object typing.", "Built-in code documentation through Javadocs", "Using the <code>final</code> keyword to create constants."], "solution": 1},
+			{"text": "Which primitive would you use to store the current amount of people in a company?", "answers": ["char", "int", "double", "boolean"], "solution": 1},
+			{"text": "Which of the following are the primitive data types in Java?", "answers": ["boolean, int, float, double, string", "boolean, int, long, decimal, object", "boolean, number, float, char", "boolean, byte, short, int, long, double, float, char"], "solution": 3},	
+			{"text": "Which of the following is best suited to cycle through an array, assuming that you won't need to read each item's index?", "answers": ["While Loop", "For Loop", "Enhanced For Loop", "Try-Catch Block"], "solution": 2},
+			{"text": "Which of the following is false about Java arrays?", "answers": ["Arrays form a very basic data structure, so they work faster than Collections.", "When created, arrays are explicitly given a size.", "An array's size can change dynamically to accommodate appended or removed items.", "An array's lowest index is always 0."], "solution": 2},
+			{"text": "Which of the following is true about sharing information in Java?", "answers": ["Objects and Primitives are both passed by reference.", "Objects are passed by value. Primitives are passed by reference.", "There's no such thing as passing by reference.", "Objects are passed by reference. Primitives are passed by value."], "solution": 3},
+			{"text": "Which of the following is true about the <code>final</code> keyword in Java?", "answers": ["Methods marked final cannot be overridden.", "Classes marked final cannot be extended.", "Fields and local variables marked final cannot be assigned a value more than once.", "All of the above."], "solution": 3},
+			{"text": "How are String literals correctly delimited in Java?", "answers": ["Using double quotes.", "Using either double or single quotes.", "Using either double or single quotes, or backticks.", "This is a trick question: the compiler can deduce the literal's limits."], "solution": 0},
+			{"text": "In Java, the \"functions\" or \"actions\" performed by an Object are stored in a certain member type. What is it called?", "answers": ["Method", "Function", "Verb", "Field"], "solution": 0},
+			{"text": "In Java, information about an Object is stored in a certain member type. What is it called?", "answers": ["Variable", "Method", "Field", "Parameter"], "solution": 2}
+		],
+		"evaluation": {
+			"0": "Too bad! Go and review the fundamentals to beat this quiz.",
+			"50": "Not bad. Not good. Keep practicing!",
+			"80": "Almost there!",
+			"100": "Excellent!"
+		}
+	},
+
+	{
+		"name": "Chemical Element Trivia",
+		"desc": "A quiz with arbitrary facts about the periodic table of chemical elements. Don't be afraid to guess your way through this one!<br><br>Last updated July 2018.",
+		"blind": true,
+		"random": true,
+		"questions": [
+			{"text": "What is the atomic number of the highest chemical element discovered so far?", "answers": ["120", "118", "115", "119"], "solution": 1},
+			{"text": "Which of the following element symbols does not exist?", "answers": ["Mt", "Sb", "Xe", "Gl"], "solution": 3},
+			{"text": "Which of the following elements is classified as a metalloid?", "answers": ["Aluminium", "Molybdenum", "Tantalum", "Dubnium"], "solution": 0},
+			{"text": "What is the chemical symbol for Gold?", "answers": ["Gl", "Gd", "Au", "Go"], "solution": 2},
+			{"text": "Which of the following elements is also called Wolfram?", "answers": ["Gallium", "Tungsten", "Rhodium", "Strontium"], "solution": 1},
+			{"text": "Which of the following elements is the only one with an even atomic number?", "answers": ["Hydrogen", "Cobalt", "Potassium", "Magnesium"], "solution": 3},
+			{"text": "Which of the following elements is not a lanthanide?", "answers": ["Protactinium", "Praseodymium", "Europium", "Erbium"], "solution": 0},
+			{"text": "Which of the following elements does not occur naturally on Earth?", "answers": ["Uranium", "Astatine", "Hassium", "Technetium"], "solution": 2},
+			{"text": "Which of the following elements is not part of the first group of the periodic table?", "answers": ["Sodium", "Magnesium", "Potassium", "Lithium"], "solution": 1},
+			{"text": "What is the chemical element with the atomic number 77?", "answers": ["Palladium", "Osmium", "Iridium", "Platinum"], "solution": 3}
+		],
+		"evaluation": {
+			"0": "There's no shame in losing!",
+			"20": "A pretty average score.",
+			"40": "Better than average!",
+			"90": "Great job! You are either a seasoned chemist, or spent way too much time mastering this quiz."
+		}
+	}
+]
