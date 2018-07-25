@@ -1,4 +1,4 @@
-#The General Quizzes App
+# The General Quizzes App
 
 This JavaScript-powered web application allows you to take multiple short quizzes.
 
